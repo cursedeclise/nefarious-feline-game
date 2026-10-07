@@ -3,15 +3,15 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://brbtohct73mlt"
-path="res://.godot/imported/checkboard.png-e7f9e46e90861fac5b57619fc2a1b395.ctex"
+path="res://.godot/imported/checkboard.png-351a21a5849e6fb81d4fd3d83e1c55bf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/level/checkboard.png"
-dest_files=["res://.godot/imported/checkboard.png-e7f9e46e90861fac5b57619fc2a1b395.ctex"]
+source_file="res://assets/textures/checkboard.png"
+dest_files=["res://.godot/imported/checkboard.png-351a21a5849e6fb81d4fd3d83e1c55bf.ctex"]
 
 [params]
 

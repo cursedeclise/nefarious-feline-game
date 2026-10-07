@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://bosa48x4gwq0k"]
 
-[ext_resource type="Texture2D" uid="uid://brbtohct73mlt" path="res://assets/level/checkboard.png" id="1_s1jft"]
+[ext_resource type="Texture2D" uid="uid://brbtohct73mlt" path="res://assets/textures/checkboard.png" id="1_s1jft"]
 
 [sub_resource type="Environment" id="Environment_1k0l4"]
 background_mode = 1
