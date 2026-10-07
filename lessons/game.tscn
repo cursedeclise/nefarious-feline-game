@@ -7,7 +7,7 @@
 [ext_resource type="PackedScene" uid="uid://b430yfkptn0l8" path="res://assets/Models/shiny_telaport.glb" id="9_tpjcj"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_w6k2d"]
-albedo_color = Color(0.05882353, 0.3882353, 0.25490198, 1)
+albedo_color = Color(0.05882353, 1, 0.25490198, 1)
 albedo_texture = ExtResource("1_yasw7")
 uv1_triplanar = true
 
