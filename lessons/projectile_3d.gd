@@ -4,7 +4,7 @@ class_name Projectile3D extends Hitbox3D
 @export var projectile_vfx: PackedScene = null
 @export var impact_vfx: PackedScene = null
 @onready var _timer= %Timer
-var _visual: ProjectileSkin3D = null
+#var _visual: ProjectileSkin3D = null
 var speed :=10.0
 var maxrange:=10.0
 var _distancetraveled:=0.0
@@ -12,7 +12,7 @@ var stationary:=false
 
 func _ready() -> void:
 	#_visual = projectile_vfx.instantiate()
-	add_child(_visual)
+	#add_child(_visual)
 	#_visual.appear()
 	hit_hurt_box.connect(_on_hit)
 	_timer.wait_time=maxrange
