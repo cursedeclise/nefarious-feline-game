@@ -25,7 +25,7 @@ ambient_light_color = Color(0.76240367, 0.76240367, 0.76240367, 1)
 tonemap_mode = 2
 fog_enabled = true
 fog_light_color = Color(0.101960786, 0.047058824, 0.1882353, 1)
-fog_density = 0.005
+fog_density = 0.003
 fog_sky_affect = 0.66
 fog_height_density = 1.59
 
