@@ -3,18 +3,18 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://cexmab3mm00h4"
-path="res://.godot/imported/fireball.glb-5a8d6befbb85be74ed3d2d0eb2e61681.scn"
+uid="uid://b430yfkptn0l8"
+path="res://.godot/imported/shiny_telaport.glb-51a79c49e6ad030e7e5e865611b5bab9.scn"
 
 [deps]
 
-source_file="res://assets/vfx/fireball/fireball.glb"
-dest_files=["res://.godot/imported/fireball.glb-5a8d6befbb85be74ed3d2d0eb2e61681.scn"]
+source_file="res://assets/Models/shiny_telaport.glb"
+dest_files=["res://.godot/imported/shiny_telaport.glb-51a79c49e6ad030e7e5e865611b5bab9.scn"]
 
 [params]
 
-nodes/root_type="Node3D"
-nodes/root_name="Scene Root"
+nodes/root_type=""
+nodes/root_name=""
 nodes/root_script=null
 mesh_library/use_node_names_as_mesh_names=false
 array_mesh/deduplicate_surfaces=true
@@ -40,6 +40,6 @@ materials/extract=0
 materials/extract_format=0
 materials/extract_path=""
 _subresources={}
-gltf/naming_version=0
+gltf/naming_version=2
 gltf/embedded_image_handling=1
-gltf/texture_map_mode=0
+gltf/texture_map_mode=1

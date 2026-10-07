@@ -11,9 +11,9 @@ var _distancetraveled:=0.0
 var stationary:=false
 
 func _ready() -> void:
-	_visual = projectile_vfx.instantiate()
+	#_visual = projectile_vfx.instantiate()
 	add_child(_visual)
-	_visual.appear()
+	#_visual.appear()
 	hit_hurt_box.connect(_on_hit)
 	_timer.wait_time=maxrange
 	_timer.start()
@@ -30,13 +30,14 @@ func _physics_process(delta: float) -> void:
 	
 func _destroy () -> void:
 		set_physics_process(false)
-		_visual.destroy()
-		_visual.tree_exited.connect(queue_free)
+		#_visual.destroy()
+		#_visual.tree_exited.connect(queue_free)
+		queue_free()
 		hit_hurt_box.disconnect(_on_hit)
 
 func _on_hit(_node: Hurtbox3D) -> void:
-	var impact: Node3D = impact_vfx.instantiate()
-	impact.transform = transform
-	add_sibling(impact)
+	#var impact: Node3D = impact_vfx.instantiate()
+	#impact.transform = transform
+	#add_sibling(impact)
 	
 	_destroy()

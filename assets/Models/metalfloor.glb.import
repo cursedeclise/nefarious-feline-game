@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://c84a84bhu82eb"
-path="res://.godot/imported/Battery.glb-db2cdf62513192e21342ba3a103647f8.scn"
+uid="uid://b5b63nfvhxted"
+path="res://.godot/imported/metalfloor.glb-5ac43f3f4e416443cd2e62b6372ed81d.scn"
 
 [deps]
 
-source_file="res://Test Assets/Battery.glb"
-dest_files=["res://.godot/imported/Battery.glb-db2cdf62513192e21342ba3a103647f8.scn"]
+source_file="res://assets/Models/metalfloor.glb"
+dest_files=["res://.godot/imported/metalfloor.glb-5ac43f3f4e416443cd2e62b6372ed81d.scn"]
 
 [params]
 

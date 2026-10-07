@@ -44,7 +44,7 @@ project/assembly_name="M3. Gobot the Sorcerer"
 
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/gdpractice/plugin.cfg", "res://addons/gdquest_colorpicker_presets/plugin.cfg")
+enabled=PackedStringArray()
 
 [filesystem]
 
