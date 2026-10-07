@@ -117,7 +117,7 @@ use_collision = true
 size = Vector3(40, 15, 20)
 material = ExtResource("2_viysf")
 
-[node name="CSGBox3D21" type="CSGBox3D" parent="Boxes folder" unique_id=519777411]
+[node name="antigravbox3d" type="CSGBox3D" parent="Boxes folder" unique_id=519777411]
 transform = Transform3D(-4.371139e-08, 0, 1, 0, 1, 0, -1, 0, -4.371139e-08, -126, 36, -11)
 size = Vector3(40, 56, 20)
 material = SubResource("StandardMaterial3D_tpjcj")
