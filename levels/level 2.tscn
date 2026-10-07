@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://bb8eh73aejhsk"]
+
+[ext_resource type="Texture2D" uid="uid://brbtohct73mlt" path="res://assets/textures/checkboard.png" id="1_5dt40"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_y1b6l"]
+albedo_color = Color(0.05882353, 0.3882353, 0.25490198, 1)
+albedo_texture = ExtResource("1_5dt40")
+uv1_triplanar = true
+
+[node name="Level1" type="Node3D" unique_id=1022175269]
+
+[node name="CSGBox3D" type="CSGBox3D" parent="." unique_id=293654081]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -4, 0)
+use_collision = true
+size = Vector3(20, 8, 20)
+material = SubResource("StandardMaterial3D_y1b6l")
