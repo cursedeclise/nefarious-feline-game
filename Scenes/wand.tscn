@@ -1,7 +1,8 @@
 [gd_scene format=3 uid="uid://cwws4dah8im47"]
 
-[ext_resource type="Script" uid="uid://ci0mp24qag55b" path="res://lessons/wand.gd" id="1_akdmc"]
-[ext_resource type="PackedScene" uid="uid://do0v6f0n8bkrf" path="res://lessons/projectile_3d.tscn" id="2_11xym"]
+[ext_resource type="Script" uid="uid://ci0mp24qag55b" path="res://Scenes/wand.gd" id="1_akdmc"]
+[ext_resource type="PackedScene" uid="uid://do0v6f0n8bkrf" path="res://Scenes/projectile_3d.tscn" id="2_11xym"]
+
 
 [node name="Wand" type="Marker3D" unique_id=1502871393]
 script = ExtResource("1_akdmc")

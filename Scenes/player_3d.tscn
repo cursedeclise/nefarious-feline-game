@@ -1,9 +1,9 @@
 [gd_scene format=3 uid="uid://btfvaxt4o1f78"]
 
 [ext_resource type="Script" uid="uid://bcxue54467rqp" path="res://player_3d_experimental.gd" id="1_qu5ip"]
-[ext_resource type="PackedScene" uid="uid://cwws4dah8im47" path="res://lessons/wand.tscn" id="3_duieb"]
+[ext_resource type="PackedScene" uid="uid://cwws4dah8im47" path="res://Scenes/wand.tscn" id="3_duieb"]
 [ext_resource type="PackedScene" uid="uid://b2bxc4kc7si3f" path="res://assets/Models/Battery.glb" id="4_24v58"]
-[ext_resource type="Script" uid="uid://ikaty2xb1dur" path="res://Hurtbox_3d.gd" id="4_qu5ip"]
+[ext_resource type="Script" uid="uid://ikaty2xb1dur" path="res://Scripts/Hurtbox_3d.gd" id="4_qu5ip"]
 
 [sub_resource type="CylinderShape3D" id="CylinderShape3D_obgk2"]
 height = 1.0

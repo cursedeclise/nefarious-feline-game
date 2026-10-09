@@ -1,11 +1,12 @@
 extends CharacterBody3D
 
-
 const SPEED = 10.5
 const JUMP_VELOCITY = 9.8
 var canjump=true
 var gravity=Vector3(0,-15.8,0)
 var moveblock=true
+var anti_gravity=false
+
 
 func _physics_process(delta: float) -> void:
 	_update_camera(delta)
@@ -31,6 +32,8 @@ func _physics_process(delta: float) -> void:
 		else:
 			velocity.y = JUMP_VELOCITY
 		canjump=false
+		
+		
 	# Get the input direction and handle the movement/deceleration.
 	# As good practice, you should replace UI actions with custom gameplay actions.
 	var input_dir := Input.get_vector("moveL", "moveR", "moveF", "moveB")

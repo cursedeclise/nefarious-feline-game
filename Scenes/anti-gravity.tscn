@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://b74f7xhy8jsj0"]
+
+[ext_resource type="Script" uid="uid://d3gdxklmi8sus" path="res://Scripts/anti_gravity.gd" id="1_qyoq4"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_bfc31"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_y66yk"]
+transparency = 1
+cull_mode = 2
+albedo_color = Color(0.25882354, 0.26666668, 0.69803923, 0.5529412)
+
+[node name="Area3D" type="Area3D" unique_id=1745761341]
+script = ExtResource("1_qyoq4")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="." unique_id=1928896553]
+shape = SubResource("BoxShape3D_bfc31")
+
+[node name="CSGBox3D" type="CSGBox3D" parent="." unique_id=425456386]
+material = SubResource("StandardMaterial3D_y66yk")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
+[connection signal="body_shape_exited" from="." to="." method="_on_body_shape_exited"]
