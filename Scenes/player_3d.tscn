@@ -2,6 +2,7 @@
 
 [ext_resource type="Script" uid="uid://bcxue54467rqp" path="res://player_3d_experimental.gd" id="1_qu5ip"]
 [ext_resource type="PackedScene" uid="uid://cwws4dah8im47" path="res://Scenes/wand.tscn" id="3_duieb"]
+[ext_resource type="PackedScene" uid="uid://bjf5grrkx571s" path="res://assets/Models/PlasmaBolter.glb" id="3_exd6r"]
 [ext_resource type="PackedScene" uid="uid://b2bxc4kc7si3f" path="res://assets/Models/Battery.glb" id="4_24v58"]
 [ext_resource type="Script" uid="uid://ikaty2xb1dur" path="res://Scripts/Hurtbox_3d.gd" id="4_qu5ip"]
 
@@ -16,9 +17,6 @@ script = ExtResource("1_qu5ip")
 CAMERA_CONTROLLER = NodePath("CameraAnchor")
 MOUSE_SENSITIVITY = 0.22
 
-[node name="Wand" parent="." unique_id=1502871393 instance=ExtResource("3_duieb")]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.4, -0.6)
-
 [node name="coyotetimer" type="Timer" parent="." unique_id=524001425]
 unique_name_in_owner = true
 wait_time = 0.3
@@ -29,13 +27,19 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.5, 0)
 shape = SubResource("CylinderShape3D_obgk2")
 
 [node name="CameraAnchor" type="Camera3D" parent="." unique_id=1471766591]
-transform = Transform3D(1, 0, 0, 0, 0.9659259, 0.25881907, 0, -0.25881907, 0.9659258, -0.09840703, 1.5, -0.41085958)
+transform = Transform3D(1, 0, 0, 0, 0.9659259, 0.25881907, 0, -0.25881907, 0.9659258, 0.5453982, 0.75, -0.411)
 
 [node name="Camera3D" type="Camera3D" parent="CameraAnchor" unique_id=1238848971]
 unique_name_in_owner = true
 transform = Transform3D(1, 0, 0, 0, 1.0000001, 0, 0, 0, 1.0000001, 0, 0, 10)
 current = true
 fov = 30.0
+
+[node name="PlasmaBolter" parent="CameraAnchor" unique_id=1746489572 instance=ExtResource("3_exd6r")]
+transform = Transform3D(0.15, 0, 0, 0, 0.15, 0, 0, 0, 0.15, 0.32684684, 1.7881394e-08, -0.4784513)
+
+[node name="Wand" parent="CameraAnchor/PlasmaBolter" unique_id=1502871393 instance=ExtResource("3_duieb")]
+transform = Transform3D(6.6666665, 0, 0, 0, 6.666666, 0, 0, 0, 6.666666, -0.051926613, -0.03659433, -2.2732527)
 
 [node name="Hurtbox3D" type="Area3D" parent="." unique_id=589406356]
 script = ExtResource("4_qu5ip")
