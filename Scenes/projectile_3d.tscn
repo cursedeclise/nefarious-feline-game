@@ -2,7 +2,6 @@
 
 [ext_resource type="Script" uid="uid://5j0af5y5kxgb" path="res://Scenes/projectile_3d.gd" id="1_g2h15"]
 
-
 [sub_resource type="SphereShape3D" id="SphereShape3D_obgk2"]
 radius = 0.3
 
@@ -18,6 +17,7 @@ shape = SubResource("SphereShape3D_obgk2")
 
 [node name="Timer" type="Timer" parent="." unique_id=1620673226]
 unique_name_in_owner = true
+wait_time = 10.0
 one_shot = true
 
 [node name="CSGSphere3D" type="CSGSphere3D" parent="." unique_id=1023496935]

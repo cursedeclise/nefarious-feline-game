@@ -1,4 +1,4 @@
-@tool
+#@tool
 class_name Projectile3D extends Hitbox3D
 
 @export var projectile_vfx: PackedScene = null
