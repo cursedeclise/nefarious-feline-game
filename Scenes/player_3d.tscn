@@ -36,7 +36,7 @@ current = true
 fov = 30.0
 
 [node name="PlasmaBolter" parent="CameraAnchor" unique_id=1746489572 instance=ExtResource("3_exd6r")]
-transform = Transform3D(0.15, 0, 0, 0, 0.15, 0, 0, 0, 0.15, 0.32684684, 1.7881394e-08, -0.4784513)
+transform = Transform3D(0.15, 0, 0, 0, 0.14488888, -0.03882286, 0, 0.03882286, 0.14488888, 0.32684684, 1.7881394e-08, -0.4784513)
 
 [node name="Wand" parent="CameraAnchor/PlasmaBolter" unique_id=1502871393 instance=ExtResource("3_duieb")]
 transform = Transform3D(6.6666665, 0, 0, 0, 6.666666, 0, 0, 0, 6.666666, -0.051926613, -0.03659433, -2.2732527)
