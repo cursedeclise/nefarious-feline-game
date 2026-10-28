@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://cck1bh1m1s3lw"]
+
+[ext_resource type="PackedScene" uid="uid://dyokd3o0he4ow" path="res://offbrand_dalek_thing616.glb" id="1_12j10"]
+
+[node name="Node3D" type="Node3D" unique_id=697777537]
+
+[node name="offbrand_dalek_thing616" parent="." unique_id=629511769 instance=ExtResource("1_12j10")]
