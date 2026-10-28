@@ -4,6 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://brbtohct73mlt" path="res://assets/textures/checkboard.png" id="1_yasw7"]
 [ext_resource type="Material" uid="uid://ccypd81s0p18j" path="res://new_standard_material_3d.tres" id="2_viysf"]
 [ext_resource type="PackedScene" uid="uid://7n1ap2he21li" path="res://Scenes/target_3d.tscn" id="4_gkp25"]
+[ext_resource type="PackedScene" uid="uid://dyokd3o0he4ow" path="res://offbrand_dalek_thing616.glb" id="6_aaho8"]
 [ext_resource type="PackedScene" uid="uid://b430yfkptn0l8" path="res://assets/Models/shiny_telaport.glb" id="9_tpjcj"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_w6k2d"]
@@ -217,3 +218,9 @@ transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 3, 0, -2)
 
 [node name="shiny_telaport2" parent="Everything else" unique_id=1751512063 instance=ExtResource("9_tpjcj")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -55, 59, 54)
+
+[node name="offbrand_dalek_thing616" parent="." unique_id=629511769 instance=ExtResource("6_aaho8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.016414642, 3.077114, 4.714776)
+
+[node name="offbrand_dalek_thing617" parent="." unique_id=2051219870 instance=ExtResource("6_aaho8")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -2.1173477, 1.2783699, 5.646923)
