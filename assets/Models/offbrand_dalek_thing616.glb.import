@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://dyokd3o0he4ow"
-path="res://.godot/imported/offbrand_dalek_thing616.glb-8ae806c621aa4893f2562716317d1740.scn"
+path="res://.godot/imported/offbrand_dalek_thing616.glb-3fa54221f7976c2576755c9efc0c8c86.scn"
 
 [deps]
 
-source_file="res://offbrand_dalek_thing616.glb"
-dest_files=["res://.godot/imported/offbrand_dalek_thing616.glb-8ae806c621aa4893f2562716317d1740.scn"]
+source_file="res://assets/Models/offbrand_dalek_thing616.glb"
+dest_files=["res://.godot/imported/offbrand_dalek_thing616.glb-3fa54221f7976c2576755c9efc0c8c86.scn"]
 
 [params]
 
