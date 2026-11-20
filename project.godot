@@ -166,7 +166,6 @@ common/enable_pause_aware_picking=true
 
 [rendering]
 
-renderer/rendering_method="mobile"
 anti_aliasing/quality/msaa_3d=2
 environment/defaults/default_clear_color=Color(0.223529, 0.160784, 0.27451, 1)
 2d/snapping/use_gpu_pixel_snap=true
